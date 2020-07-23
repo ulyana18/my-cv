@@ -118,6 +118,6 @@ footer {
     font-size: 1.2vw;
 }
 
-.contacts-item i {
-    margin-right: 8px;
+.contacts-item a {
+    margin-left: 5px;
 }
