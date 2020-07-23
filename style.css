@@ -1,0 +1,123 @@
+@font-face{
+
+    font-family: 'Work-Sans';
+    
+    src: url('./assets/WorkSans-VariableFont_wght.ttf');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+
+
+body {
+    margin: 0;
+    background-color: rgb(83, 121, 143);
+    font-family: 'Work-Sans';
+}
+
+.fa {
+    margin-right: 8px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vh;
+    color: rgb(195, 206, 216);
+}
+
+.avatar {
+    max-width: 150px;
+    border: 0px solid #fff;
+    border-radius: 100%;
+}
+.main-section__name {
+    font-size: 3vw;
+}
+.main-section__position {
+    margin-top: 0;
+    margin-bottom: 2vh;
+    font-size: 2vw;
+}
+
+/* .education-section {
+    padding: 10px 30px;
+    background-color: rgb(225, 232, 238);
+} */
+.section-title {
+    margin-left: 4vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    font-size: 1.7vw;
+    color: rgb(34, 52, 92);
+}
+.education-section__item {
+    margin: 6vh 4.5vw;
+}
+.education-name {
+    margin-bottom: 8px;
+    font-size: 1.4vw;
+    color: rgb(35, 60, 90);
+}
+.education-year {
+    margin-top: 0;
+    font-size: 1.1vw;
+    color: rgb(95, 98, 102);
+}
+
+.education-section,
+.skills-section,
+.lang-section,
+.about-section {
+    margin-top: 1.5px;
+    padding: 10px 30px;
+    background-color: rgb(225, 232, 238);
+}
+.skills-list,
+.lang-list,
+.contacts-list {
+    list-style: none;
+}
+.skills-item,
+.lang-item,
+.about-item {
+    margin: 2vh 2.8vw;
+    font-size: 1.4vw;
+    color: rgb(35, 60, 90);
+}
+.about-item {
+    text-indent: 3vw;
+    font-size: 1.2vw;
+}
+
+.contacts-section {
+    padding: 10px 30px;
+}
+.contacts-title {
+    color: rgb(195, 206, 216);
+}
+.contacts-item {
+    margin: 2vh 2.8vw;
+    font-size: 1.4vw;
+    color: rgb(164, 175, 185);
+}
+a {
+    text-decoration: none;
+    color: rgb(164, 175, 185);
+    transition: color 1.5s;
+}
+a:hover {
+    color: rgb(121, 137, 156);
+}
+
+footer {
+    margin-top: 1.5px;
+    padding: 10px 30px;
+    background-color: rgb(67, 98, 116);
+    text-align: center;
+    color: rgb(150, 160, 170);
+    font-size: 1.2vw;
+}
